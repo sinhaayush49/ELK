@@ -1,0 +1,11 @@
+2024-01-30T16:03:34.456+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] org.poc.SpringbootElkApplication         : Starting SpringbootElkApplication using Java 17.0.7 with PID 5384 (C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\springboot-elk\build\classes\java\main started by AyushSinha in C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\springboot-elk)
+2024-01-30T16:03:34.457+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] org.poc.SpringbootElkApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-01-30T16:03:35.499+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-30T16:03:35.501+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-30T16:03:35.502+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-30T16:03:35.575+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-30T16:03:35.576+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1109 ms
+2024-01-30T16:03:35.812+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-30T16:03:35.840+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-30T16:03:35.852+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] org.poc.SpringbootElkApplication         : Started SpringbootElkApplication in 1.509 seconds (process running for 244.733)
+2024-01-30T16:03:35.856+05:30  INFO 5384 --- [ELK-STACK] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

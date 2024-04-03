@@ -1,0 +1,100 @@
+2024-01-31T14:44:13.516+05:30 14:44:13.516 [main]  INFO [c.e.DepartmentServiceApplication] [] []  - Starting DepartmentServiceApplication using Java 17.0.7 with PID 2788 (C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\Distributed Tracing & Logging\department-service\department-service\build\classes\java\main started by AyushSinha in C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\springboot-elk)
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] c.example.DepartmentServiceApplication   : Starting DepartmentServiceApplication using Java 17.0.7 with PID 2788 (C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\Distributed Tracing & Logging\department-service\department-service\build\classes\java\main started by AyushSinha in C:\Users\AyushSinha\OneDrive - Opcito Technologies Private Limited\Desktop\Java POC\springboot-elk)
+2024-01-31T14:44:13.524+05:30 14:44:13.524 [main]  INFO [c.e.DepartmentServiceApplication] [] []  - No active profile set, falling back to 1 default profile: "default"
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] c.example.DepartmentServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-01-31T14:44:16.307+05:30 14:44:16.307 [main]  INFO [o.s.d.r.c.RepositoryConfigurationDelegate] [] []  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-31T14:44:16.484+05:30 14:44:16.484 [main]  INFO [o.s.d.r.c.RepositoryConfigurationDelegate] [] []  - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2024-01-31T14:44:19.681+05:30 14:44:19.681 [main]  INFO [o.s.b.w.e.tomcat.TomcatWebServer] [] []  - Tomcat initialized with port 8080 (http)
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-31T14:44:19.726+05:30 14:44:19.726 [main]  INFO [o.a.catalina.core.StandardService] [] []  - Starting service [Tomcat]
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-31T14:44:19.728+05:30 14:44:19.728 [main]  INFO [o.a.catalina.core.StandardEngine] [] []  - Starting Servlet engine: [Apache Tomcat/10.1.17]
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-31T14:44:20.064+05:30 14:44:20.064 [main]  INFO [o.a.c.c.C.[Tomcat].[localhost].[/]] [] []  - Initializing Spring embedded WebApplicationContext
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-31T14:44:20.065+05:30 14:44:20.065 [main]  INFO [o.s.b.w.s.c.ServletWebServerApplicationContext] [] []  - Root WebApplicationContext: initialization completed in 6438 ms
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6438 ms
+2024-01-31T14:44:21.748+05:30 14:44:21.748 [main]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Starting...
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-31T14:44:22.572+05:30 14:44:22.572 [main]  INFO [com.zaxxer.hikari.pool.HikariPool] [] []  - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36e3321e
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36e3321e
+2024-01-31T14:44:22.579+05:30 14:44:22.579 [main]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Start completed.
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-31T14:44:22.694+05:30 14:44:22.694 [main]  INFO [o.h.jpa.internal.util.LogHelper] [] []  - HHH000204: Processing PersistenceUnitInfo [name: default]
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-31T14:44:22.909+05:30 14:44:22.909 [main]  INFO [org.hibernate.Version] [] []  - HHH000412: Hibernate ORM core version 6.4.1.Final
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-31T14:44:23.025+05:30 14:44:23.025 [main]  INFO [o.h.c.i.RegionFactoryInitiator] [] []  - HHH000026: Second-level cache disabled
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-31T14:44:23.806+05:30 14:44:23.806 [main]  INFO [o.s.o.j.p.SpringPersistenceUnitInfo] [] []  - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-31T14:44:24.003+05:30 14:44:24.003 [main]  WARN [org.hibernate.orm.deprecation] [] []  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-31T14:44:26.142+05:30 14:44:26.142 [main]  INFO [o.h.e.t.j.p.i.JtaPlatformInitiator] [] []  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-31T14:44:26.148+05:30 14:44:26.148 [main]  INFO [o.s.o.j.LocalContainerEntityManagerFactoryBean] [] []  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-31T14:44:27.123+05:30 14:44:27.123 [main]  WARN [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] [] []  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-31T14:44:29.364+05:30 14:44:29.364 [main]  INFO [o.s.b.a.e.web.EndpointLinksResolver] [] []  - Exposing 1 endpoint(s) beneath base path '/actuator'
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-31T14:44:29.578+05:30 14:44:29.578 [main]  INFO [o.s.b.w.e.tomcat.TomcatWebServer] [] []  - Tomcat started on port 8080 (http) with context path ''
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-31T14:44:29.602+05:30 14:44:29.602 [main]  INFO [c.e.DepartmentServiceApplication] [] []  - Started DepartmentServiceApplication in 17.368 seconds (process running for 19.107)
+ 2788 --- [DEPARTMENT-SERVICE] [main] [                                                 ] c.example.DepartmentServiceApplication   : Started DepartmentServiceApplication in 17.368 seconds (process running for 19.107)
+2024-01-31T14:44:30.017+05:30 14:44:30.017 [RMI TCP Connection(3)-172.28.0.1]  INFO [o.a.c.c.C.[Tomcat].[localhost].[/]] [] []  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2788 --- [DEPARTMENT-SERVICE] [RMI TCP Connection(3)-172.28.0.1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-31T14:44:30.018+05:30 14:44:30.018 [RMI TCP Connection(3)-172.28.0.1]  INFO [o.s.web.servlet.DispatcherServlet] [] []  - Initializing Servlet 'dispatcherServlet'
+ 2788 --- [DEPARTMENT-SERVICE] [RMI TCP Connection(3)-172.28.0.1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-31T14:44:30.021+05:30 14:44:30.021 [RMI TCP Connection(3)-172.28.0.1]  INFO [o.s.web.servlet.DispatcherServlet] [] []  - Completed initialization in 3 ms
+ 2788 --- [DEPARTMENT-SERVICE] [RMI TCP Connection(3)-172.28.0.1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-01-31T14:44:50.368+05:30 14:44:50.368 [http-nio-8080-exec-1]  INFO [c.e.controller.DepartmentController] [SPAN-ID] [3d999092f148966e]  - Inside getDepartmentById()
+ 2788 --- [DEPARTMENT-SERVICE] [http-nio-8080-exec-1] [65ba0f89ab8af5633d999092f148966e-7a5a7a028595833f] c.e.controller.DepartmentController      : Inside getDepartmentById()
+2024-01-31T14:44:51.661+05:30 14:44:51.661 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@19002b34}]  WARN [z.r.AsyncReporter$BoundedAsyncReporter] [] []  - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+ 2788 --- [DEPARTMENT-SERVICE] [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@19002b34}] [                                                 ] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2024-01-31T14:44:51.662+05:30 14:44:51.662 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@19002b34}]  WARN [z.r.AsyncReporter$BoundedAsyncReporter] [] []  - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information)
+ 2788 --- [DEPARTMENT-SERVICE] [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@19002b34}] [                                                 ] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:905) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:885) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:781) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:663) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:68) ~[spring-boot-actuator-autoconfigure-3.2.1.jar:3.2.1]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:48) ~[spring-boot-actuator-autoconfigure-3.2.1.jar:3.2.1]
+	at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.2.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.3.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:637) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:385) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:407) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[na:na]
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:879) ~[spring-web-6.1.2.jar:6.1.2]
+	... 8 common frames omitted
+
+2024-01-31T14:45:45.078+05:30 14:45:45.078 [http-nio-8080-exec-3]  INFO [c.e.controller.DepartmentController] [SPAN-ID] [166500d6c2460a05]  - Inside getDepartmentById()
+ 2788 --- [DEPARTMENT-SERVICE] [http-nio-8080-exec-3] [65ba0fc1f836cb53166500d6c2460a05-c8c76cef2391dd77] c.e.controller.DepartmentController      : Inside getDepartmentById()
+2024-01-31T14:47:06.401+05:30 14:47:06.401 [SpringApplicationShutdownHook]  INFO [o.s.o.j.LocalContainerEntityManagerFactoryBean] [] []  - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 2788 --- [DEPARTMENT-SERVICE] [SpringApplicationShutdownHook] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-31T14:47:06.407+05:30 14:47:06.407 [SpringApplicationShutdownHook]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Shutdown initiated...
+ 2788 --- [DEPARTMENT-SERVICE] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-31T14:47:06.420+05:30 14:47:06.420 [SpringApplicationShutdownHook]  INFO [com.zaxxer.hikari.HikariDataSource] [] []  - HikariPool-1 - Shutdown completed.
+ 2788 --- [DEPARTMENT-SERVICE] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
